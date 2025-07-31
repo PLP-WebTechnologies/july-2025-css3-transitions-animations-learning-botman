@@ -1,0 +1,5 @@
+function revealFact() {
+  const factDiv = document.getElementById('lakeFact');
+  factDiv.textContent = "Did you know? Kenya's Rift Valley Lakes are part of a UNESCO World Heritage Site due to their unique ecosystems and incredible biodiversity.";
+  factDiv.classList.remove('hidden');
+}
