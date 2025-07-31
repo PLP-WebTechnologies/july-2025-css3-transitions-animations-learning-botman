@@ -1,0 +1,40 @@
+.lake-section {
+  padding: 2rem;
+  background: #e0f7fa;
+  text-align: center;
+}
+
+.lake-section h2 {
+  font-size: 2rem;
+  color: #006064;
+}
+
+.lake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.lake-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lake-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.hidden {
+  display: none;
+}
+
+#lakeFact {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #004d40;
+}
